@@ -11,5 +11,5 @@ Projeto Vagrant com provisionamento através do Chef Solo e inclusão dos seguin
 
 Modo de usar:
 * inicie a máquina através do vagrant up
-* crie um projeto baseado no arquétipo do wildfly-web
+* crie um projeto baseado no arquétipo wildfly-javaee7-webapp-archetype
 * execute o projeto com o comando 'mvn wildfly:deploy'
