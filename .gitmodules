@@ -1,0 +1,3 @@
+[submodule "cookbooks/7-zip"]
+	path = cookbooks/7-zip
+	url = https://github.com/sneal/7-zip.git
