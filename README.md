@@ -17,6 +17,8 @@ Modo de usar:
 * execute o projeto com o comando 'mvn wildfly:deploy'
 
 Inicializando o repositório em uma maquina com o git instalado:
+```
 git clone git://github.com/noobli/vagrant-chef-wildfly-postgresql-maven.git
 git submodule init
 git submodule update
+```
