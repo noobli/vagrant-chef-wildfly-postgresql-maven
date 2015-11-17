@@ -10,3 +10,6 @@
 [submodule "cookbooks/ark"]
 	path = cookbooks/ark
 	url = https://github.com/burtlo/ark.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = https://github.com/chef-cookbooks/windows.git
