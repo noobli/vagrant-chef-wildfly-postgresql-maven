@@ -46,3 +46,6 @@
 [submodule "cookbooks/dmg"]
 	path = cookbooks/dmg
 	url = https://github.com/chef-cookbooks/dmg.git
+[submodule "cookbooks/wildfly"]
+	path = cookbooks/wildfly
+	url = https://github.com/noobli/chef-wildfly.git
