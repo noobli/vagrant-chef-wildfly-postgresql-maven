@@ -13,3 +13,6 @@
 [submodule "cookbooks/windows"]
 	path = cookbooks/windows
 	url = https://github.com/chef-cookbooks/windows.git
+[submodule "cookbooks/chef-sugar"]
+	path = cookbooks/chef-sugar
+	url = https://github.com/sethvargo/chef-sugar.git
