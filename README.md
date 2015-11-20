@@ -1,4 +1,5 @@
-# vagrant-chef-wildfly-postgresql-maven
+#vagrant-chef-wildfly-postgresql-maven
+
 Projeto Vagrant com provisionamento através do Chef Solo e inclusão dos seguintes itens:
 * Java JDK 8 da Oracle
 * git para atualização de código fontes sem depender do host
@@ -10,13 +11,17 @@ Projeto Vagrant com provisionamento através do Chef Solo e inclusão dos seguin
 
 O projeto roda tanto em máquinas com virtualbox, quanto com lxc
 
-Modo de usar:
+##Modo de usar:
 * inicie a máquina através do vagrant up
 * crie um projeto baseado no arquétipo wildfly-javaee7-webapp-archetype
 http://stackoverflow.com/questions/24578154/are-there-no-wildfly-8-java-ee-7-quickstart-archetypes
 * execute o projeto com o comando 'mvn wildfly:deploy'
 
-Inicializando o repositório em uma maquina com o git instalado:
+##Pré-requisitos
+* vagrant (com o provider de sua preferência[virtualbox ou lxc])
+* git
+
+##Inicializando o repositório em uma maquina com o git instalado:
 ```
 git clone git://github.com/noobli/vagrant-chef-wildfly-postgresql-maven.git
 git submodule init
