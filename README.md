@@ -19,19 +19,19 @@ http://stackoverflow.com/questions/24578154/are-there-no-wildfly-8-java-ee-7-qui
 
 ##Pré-requisitos
 * vagrant (com o provider de sua preferência[virtualbox ou lxc])
-    Instalar Gem:
-     sudo apt-get install ruby ruby-dev
-    Instalar Vagrant:
-     Baixar a versão do site;
-     ./vagrant_1.8.1_x86_64.deb
-    Instalar o LXC:
-      sudo apt-get install lxc lxc-templates
-    Plugins:
-      vagrant plugin install vagrant-lxc
-      vagrant plugin install vagrant-vbguest
-      vagrant plugin install vagrant-berkshelf
-      vagrant plugin install vagrant-omnibus
-      vagrant plugin install vagrant-cachier
+  1. Instalar Gem:
+    - sudo apt-get install ruby ruby-dev
+  2. Instalar Vagrant:
+    - Baixar a versão do site;
+    - ./vagrant_1.8.1_x86_64.deb
+  3. Instalar o LXC:
+    - sudo apt-get install lxc lxc-templates
+  4. Plugins:
+    - vagrant plugin install vagrant-lxc
+    - vagrant plugin install vagrant-vbguest
+    - vagrant plugin install vagrant-berkshelf
+    - vagrant plugin install vagrant-omnibus
+    - vagrant plugin install vagrant-cachier
    
 * git
 
