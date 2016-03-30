@@ -12,6 +12,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 5432, host: 5432
   config.vm.network "forwarded_port", guest: 8080, host: 8080
   config.vm.network "forwarded_port", guest: 9990, host: 9990
+  config.vm.network "forwarded_port", guest: 8787, host: 8787
 
   # change orders to change default provider
   config.vm.provider "lxc" do |lxc|
@@ -59,6 +60,10 @@ Vagrant.configure(2) do |config|
         :password => {postgres: 'postgres'}
       },
       :wildfly => {
+        :java_opts => {
+          :other => ['-Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n']
+        },
+        :jpda => {enabled: false},
         :postgresql => { 
           :enable => true,
           :jndi => {
