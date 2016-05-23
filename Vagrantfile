@@ -26,6 +26,9 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.provision "chef_solo" do |chef|
+    chef.version = "12.0.3"
+    chef.channel = "stable"
+
     chef.add_recipe "java"
     chef.add_recipe "git"
     chef.add_recipe "maven"
